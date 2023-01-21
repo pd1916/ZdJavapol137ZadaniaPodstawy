@@ -8,6 +8,7 @@ public class Task4 {
     private static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
+        System.out.println(3 + 4 + " = 5 + 2");
         int height = getHeightFromUser();
         float weight = getWeightFromUser();
         float bmi = calculateBMI(weight, height);
