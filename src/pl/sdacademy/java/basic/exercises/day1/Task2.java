@@ -22,11 +22,11 @@ public class Task2 {
 
     private static float calculateCircumferenceOfCircle(float radius) {
         // 2 * pi * radius
-        return 2 * (float)PI * radius;
+        return 2 * (float) PI * radius;
     }
 
     private static float calculateAreaOfCircle(float radius) {
         // pi * radius^2
-        return (float)(PI * Math.pow(radius, 2));
+        return (float) (PI * Math.pow(radius, 2));
     }
 }
