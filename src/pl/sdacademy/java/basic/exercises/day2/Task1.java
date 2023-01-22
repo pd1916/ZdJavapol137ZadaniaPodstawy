@@ -1,5 +1,7 @@
 package pl.sdacademy.java.basic.exercises.day2;
 
+import static pl.sdacademy.java.basic.exercises.day2.StringValidator.isValid;
+
 public class Task1 {
     private static final char DEFAULT_CHAR = '\u0000';
 
@@ -28,7 +30,7 @@ public class Task1 {
     private static char getLastCharacter(String input) {
         // warunek1 && warunek2 -> całość jest true gdy warunek1 jest true i warunek2 jest true\
         // warunek1 & warunek2
-        if(input != null && !input.isEmpty()) {
+        if(isValid(input)) {
             int lastPosition = input.length() - 1;
             return input.charAt(lastPosition);
         }
