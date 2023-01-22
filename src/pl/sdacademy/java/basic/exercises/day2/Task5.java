@@ -6,7 +6,7 @@ public class Task5 {
 
     public static void main(String[] args) {
         String input = "Ala ma kota";
-        char searchedChar = 'a';
+        char searchedChar = 'z';
         System.out.println("Result: " + countCharInString(input, searchedChar));
 
         input = null;
@@ -17,7 +17,12 @@ public class Task5 {
     private static int countCharInString(String input, char searchedChar) {
         int counter = 0;
         if(isValid(input)) {
-            for(int i = input.indexOf(searchedChar); i < input.length(); i++) {
+        //if(isValid(input) && input.contains(Character.toString(searchedChar))) {
+            // gdy szukamy znaku którego nie ma w stringu to leci wyjątek
+            // należałoby dodać dodatkowo walidację/sprawdzanie w if'e powyżej do postaci:
+            // isValid(input) && input.contains(Character.toString(searchedChar))
+            //for(int i = input.indexOf(searchedChar); i < input.length(); i++) {
+            for(int i = 0; i < input.length(); i++) {
                 if(input.charAt(i) == searchedChar) {
                     counter++;
                 }
