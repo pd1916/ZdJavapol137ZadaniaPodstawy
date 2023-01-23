@@ -1,6 +1,6 @@
 package pl.sdacademy.java.basic.exercises.day2;
 
-import static pl.sdacademy.java.basic.exercises.day2.StringValidator.*;
+import static pl.sdacademy.java.basic.exercises.day2.StringValidator.isValid;
 
 public class Task5 {
 
@@ -17,7 +17,7 @@ public class Task5 {
     private static int countCharInString(String input, char searchedChar) {
         int counter = 0;
         if(isValid(input)) {
-        //if(isValid(input) && input.contains(Character.toString(searchedChar))) {
+            //if(isValid(input) && input.contains(Character.toString(searchedChar))) {
             // gdy szukamy znaku którego nie ma w stringu to leci wyjątek
             // należałoby dodać dodatkowo walidację/sprawdzanie w if'e powyżej do postaci:
             // isValid(input) && input.contains(Character.toString(searchedChar))

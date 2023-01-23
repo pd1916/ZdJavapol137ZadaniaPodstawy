@@ -30,11 +30,11 @@ public class Task8 {
                 if(currentChar >= VALUE_UPPER_A_IN_ASCII && currentChar <= VALUE_UPPER_Z_IN_ASCII) {
                     //mamy wielką literę, zamieniamy na małą
                     //result += (char)(currentChar + DIFF_UPPER_AND_LOWER_IN_ASCII);
-                    result.append((char)(currentChar + DIFF_UPPER_AND_LOWER_IN_ASCII));
+                    result.append((char) (currentChar + DIFF_UPPER_AND_LOWER_IN_ASCII));
                 } else if(currentChar >= VALUE_LOWER_A_IN_ASCII && currentChar <= VALUE_LOWER_Z_IN_ASCII) {
                     //mamy małą literę, zamieniamy na wielką
                     //result += (char)(currentChar - DIFF_UPPER_AND_LOWER_IN_ASCII);
-                    result.append((char)(currentChar - DIFF_UPPER_AND_LOWER_IN_ASCII));
+                    result.append((char) (currentChar - DIFF_UPPER_AND_LOWER_IN_ASCII));
                 } else {
                     //mamy inny znak niż litery, nic nie modyfikujemy
                     //result += currentChar;
