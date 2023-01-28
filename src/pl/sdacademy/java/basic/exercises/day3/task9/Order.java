@@ -1,4 +1,5 @@
 package pl.sdacademy.java.basic.exercises.day3.task9;
+
 public class Order {
     private int nextIndex = 0;
     private int maxOrderItem;
@@ -25,7 +26,7 @@ public class Order {
 
     public double getTotalAmount() {
         double totalAmount = 0;
-        for (OrderItem orderItem : orderItems) {
+        for(OrderItem orderItem : orderItems) {
             if(orderItem != null) {
                 totalAmount += orderItem.getPrice();
             }
@@ -46,7 +47,7 @@ public class Order {
     }
 
     public void print() {
-        for (OrderItem orderItem : orderItems) {
+        for(OrderItem orderItem : orderItems) {
             if(orderItem != null) {
                 orderItem.print();
             }

@@ -25,7 +25,7 @@ public class Warrior {
 
 
     private boolean isAlive() {
-        if (this.hp > 0) {
+        if(this.hp > 0) {
             return true;
         } else {
             System.out.println(this.name + " already dead");

@@ -22,7 +22,7 @@ public class Main {
     private static String getSurnameWithMaxStropheNumbersV1(Poem[] poems) {
         int max = 0;
         Author author = null;
-        for (Poem poem : poems) {
+        for(Poem poem : poems) {
             int currentStropheNumbers = poem.getStropheNumbers();
             if(max < currentStropheNumbers) {
                 max = currentStropheNumbers;
@@ -35,7 +35,7 @@ public class Main {
     private static String getSurnameWithMaxStropheNumbersV2(Poem[] poems) {
         int max = 0;
         String authorAsString = null;
-        for (Poem poem : poems) {
+        for(Poem poem : poems) {
             int currentStropheNumbers = poem.getStropheNumbers();
             if(max < currentStropheNumbers) {
                 max = currentStropheNumbers;

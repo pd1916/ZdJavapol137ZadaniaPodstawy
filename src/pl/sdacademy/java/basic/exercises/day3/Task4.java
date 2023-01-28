@@ -1,6 +1,5 @@
 package pl.sdacademy.java.basic.exercises.day3;
 
-import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Task4 {

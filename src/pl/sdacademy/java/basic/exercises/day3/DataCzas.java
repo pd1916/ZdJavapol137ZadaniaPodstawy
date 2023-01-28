@@ -1,10 +1,5 @@
 package pl.sdacademy.java.basic.exercises.day3;
 
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.time.LocalTime;
-import java.time.format.DateTimeFormatter;
-
 public class DataCzas {
     public static void main(String[] args) {
 //        LocalTime localTime = LocalTime.now();
