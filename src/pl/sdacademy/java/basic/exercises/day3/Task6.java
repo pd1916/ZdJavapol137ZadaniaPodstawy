@@ -10,7 +10,7 @@ public class Task6 {
         /*
         LocalDate.now();
         LocalDate.of(2023, 01, 28);
-        LocalDate.parse("2023-01-28);
+        LocalDate.parse("2023-01-28");
         LocalDate.parse("28-01-2023", DateTimeFormatter.ofPattern("dd-MM-yyyy"));
          */
         Scanner scanner = new Scanner(System.in);
