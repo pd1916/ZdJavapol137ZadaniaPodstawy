@@ -14,9 +14,10 @@ public class Task4 {
 
     private static String replaceString(String input) {
         if(isValid(input)) {
-            return input
-                    .replace(".", REPLACEMENT)
-                    .replace(",", REPLACEMENT);
+//            return input
+//                    .replace(".", REPLACEMENT)
+//                    .replace(",", REPLACEMENT);
+            return input.replaceAll("[.,]", REPLACEMENT);
         }
         return input;
     }
